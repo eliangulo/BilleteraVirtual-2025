@@ -1,0 +1,1 @@
+C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Server\BilleteraVirtual.Server.Client\obj\Debug\net9.0\staticwebassets.build.json
