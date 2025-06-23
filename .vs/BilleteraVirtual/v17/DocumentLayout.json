@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E48F578E-AC44-4546-A7A4-91F32D91213D}|BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj|c:\\itsc\\practicas.1\\billeteravirtual\\billeteravirtual.bd\\billeteravirtual.bd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E48F578E-AC44-4546-A7A4-91F32D91213D}|BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj|solutionrelative:billeteravirtual.bd\\billeteravirtual.bd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48F578E-AC44-4546-A7A4-91F32D91213D}|BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj|c:\\itsc\\practicas.1\\billeteravirtual\\billeteravirtual.bd\\datos\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48F578E-AC44-4546-A7A4-91F32D91213D}|BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj|solutionrelative:billeteravirtual.bd\\datos\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.BD\\Datos\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BilleteraVirtual.BD\\Datos\\AppDbContext.cs",
+              "ToolTip": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.BD\\Datos\\AppDbContext.cs",
+              "RelativeToolTip": "BilleteraVirtual.BD\\Datos\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T01:06:07.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BilleteraVirtual.BD",
+              "DocumentMoniker": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj",
+              "RelativeDocumentMoniker": "BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj",
+              "ToolTip": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj*",
+              "RelativeToolTip": "BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-23T01:04:16.291Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

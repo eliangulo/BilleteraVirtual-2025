@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "g4ubz6ysQm0=",
+  "success": true,
+  "projectFilePath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.300\\microsoft.net.sdk.compilers.toolset.9.0.300.nupkg.sha512"
+  ],
+  "logs": []
+}

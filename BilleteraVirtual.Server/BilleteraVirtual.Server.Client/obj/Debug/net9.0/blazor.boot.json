@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BilleteraVirtual.Server.Client",
   "resources": {
-    "hash": "sha256-T5g0JG9tva2L5n6zHTBkG1N5xk6EhaXxtyvaJ3u5AjU=",
+    "hash": "sha256-8lWqMaPqHkvePubqYwOMbwO2I+Vg/v2a9lFNKrQDKgM=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.n7we7nbch1.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.waskkzx0nn.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,12 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "BilleteraVirtual.Server.Client.kn0py5ezrn.wasm": "BilleteraVirtual.Server.Client.wasm",
-      "BilleteraVirtual.Server.Client.9hhalzh98n.pdb": "BilleteraVirtual.Server.Client.pdb"
+      "BilleteraVirtual.Servicio.g1rytbcuta.wasm": "BilleteraVirtual.Servicio.wasm",
+      "BilleteraVirtual.Shared.3txcqc6mvj.wasm": "BilleteraVirtual.Shared.wasm",
+      "BilleteraVirtual.Servicio.103fd6yubk.pdb": "BilleteraVirtual.Servicio.pdb",
+      "BilleteraVirtual.Shared.zgjp2jkkc2.pdb": "BilleteraVirtual.Shared.pdb",
+      "BilleteraVirtual.Server.Client.7scrcjzrb9.wasm": "BilleteraVirtual.Server.Client.wasm",
+      "BilleteraVirtual.Server.Client.xwj38rm4ho.pdb": "BilleteraVirtual.Server.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.uhsveqo9bs.js": "sha256-/ifJokfQvXKw1hEziCkYR9SOJIKSdGG/UKw5gbLWrj0="
@@ -412,10 +416,14 @@
       "WindowsBase.pe1q66fox7.wasm": "sha256-X+jubl681x6U1UjhhKVz+cjOvMv1wDBWIyyFenqJnPc=",
       "mscorlib.ypkr78tz1c.wasm": "sha256-Wkc7KpMw/bTWNoLCRv9T8olIOmCpEiJSeUZsUQEnwrA=",
       "netstandard.ifx8vojh9u.wasm": "sha256-PqpRCbO73PFsE8ik5zmAuG1kKax3c7bGhjOOeuiUcyY=",
-      "BilleteraVirtual.Server.Client.kn0py5ezrn.wasm": "sha256-kAU7/L65uz5GjwVi+hAyWA3I1oiamsvX7DI4LZV+Bg4="
+      "BilleteraVirtual.Servicio.g1rytbcuta.wasm": "sha256-ZEY6kGQNlq0DohTiquaUZwyWxUdDFatceFWDkGVfoXM=",
+      "BilleteraVirtual.Shared.3txcqc6mvj.wasm": "sha256-JyAC/DSyLF4JKUiubpWlBjtBtBQSipURA0VnxHsx2X4=",
+      "BilleteraVirtual.Server.Client.7scrcjzrb9.wasm": "sha256-id5P1Q4hbzexcXyYkd5vrG54b1P22SkMXBt+MUVTCjI="
     },
     "pdb": {
-      "BilleteraVirtual.Server.Client.9hhalzh98n.pdb": "sha256-A5jVOZjEcsXzjn1G4h1lpkZ4XEU3DnvEs6yue7oxSpI="
+      "BilleteraVirtual.Servicio.103fd6yubk.pdb": "sha256-D54Bek4Xt2uTadalWZ8qGrlmdbPjwAGrpneFZeJI6Og=",
+      "BilleteraVirtual.Shared.zgjp2jkkc2.pdb": "sha256-09x9UZvYeRwPHGDWjxQZiHln2OkJUxTYgXDY+nh2aks=",
+      "BilleteraVirtual.Server.Client.xwj38rm4ho.pdb": "sha256-b8Tr+OEbXfm6i7oH0k2+dSdMoN977Qer98T17voH+6M="
     }
   },
   "cacheBootResources": true,

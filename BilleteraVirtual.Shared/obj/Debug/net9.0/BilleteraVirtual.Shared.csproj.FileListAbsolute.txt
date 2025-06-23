@@ -1,0 +1,12 @@
+C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Shared\bin\Debug\net9.0\BilleteraVirtual.Shared.deps.json
+C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Shared\bin\Debug\net9.0\BilleteraVirtual.Shared.dll
+C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Shared\bin\Debug\net9.0\BilleteraVirtual.Shared.pdb
+C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Shared\obj\Debug\net9.0\BilleteraVirtual.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Shared\obj\Debug\net9.0\BilleteraVirtual.Shared.AssemblyInfoInputs.cache
+C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Shared\obj\Debug\net9.0\BilleteraVirtual.Shared.AssemblyInfo.cs
+C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Shared\obj\Debug\net9.0\BilleteraVirtual.Shared.csproj.CoreCompileInputs.cache
+C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Shared\obj\Debug\net9.0\BilleteraVirtual.Shared.sourcelink.json
+C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Shared\obj\Debug\net9.0\BilleteraVirtual.Shared.dll
+C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Shared\obj\Debug\net9.0\refint\BilleteraVirtual.Shared.dll
+C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Shared\obj\Debug\net9.0\BilleteraVirtual.Shared.pdb
+C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Shared\obj\Debug\net9.0\ref\BilleteraVirtual.Shared.dll

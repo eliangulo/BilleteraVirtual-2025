@@ -12,4 +12,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\BilleteraVirtual.Servicio\BilleteraVirtual.Servicio.csproj" />
+    <ProjectReference Include="..\..\BilleteraVirtual.Shared\BilleteraVirtual.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

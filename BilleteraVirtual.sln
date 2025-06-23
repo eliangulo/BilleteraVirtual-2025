@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilleteraVirtual.Server", "BilleteraVirtual.Server\BilleteraVirtual.Server\BilleteraVirtual.Server.csproj", "{E13C0A52-ED22-4FC1-BA05-590E4C545711}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilleteraVirtual.Server.Client", "BilleteraVirtual.Server\BilleteraVirtual.Server.Client\BilleteraVirtual.Server.Client.csproj", "{8A4685BB-A930-462F-9A08-F8B92FE49A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilleteraVirtual.Shared", "BilleteraVirtual.Shared\BilleteraVirtual.Shared.csproj", "{92C806F2-199F-4185-AA03-AA5B128CF37D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilleteraVirtual.BD", "BilleteraVirtual.BD\BilleteraVirtual.BD.csproj", "{E48F578E-AC44-4546-A7A4-91F32D91213D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilleteraVirtual.Repositorio", "BilleteraVirtual.Repositorio\BilleteraVirtual.Repositorio.csproj", "{4CA56F8D-5A99-41B3-BEF6-AAB1CA4DA084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilleteraVirtual.Servicio", "BilleteraVirtual.Servicio\BilleteraVirtual.Servicio.csproj", "{D38C89F0-8DB2-4EAB-84A9-D052D98A2152}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{8A4685BB-A930-462F-9A08-F8B92FE49A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A4685BB-A930-462F-9A08-F8B92FE49A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A4685BB-A930-462F-9A08-F8B92FE49A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C806F2-199F-4185-AA03-AA5B128CF37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C806F2-199F-4185-AA03-AA5B128CF37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C806F2-199F-4185-AA03-AA5B128CF37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C806F2-199F-4185-AA03-AA5B128CF37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E48F578E-AC44-4546-A7A4-91F32D91213D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48F578E-AC44-4546-A7A4-91F32D91213D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48F578E-AC44-4546-A7A4-91F32D91213D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48F578E-AC44-4546-A7A4-91F32D91213D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA56F8D-5A99-41B3-BEF6-AAB1CA4DA084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA56F8D-5A99-41B3-BEF6-AAB1CA4DA084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA56F8D-5A99-41B3-BEF6-AAB1CA4DA084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA56F8D-5A99-41B3-BEF6-AAB1CA4DA084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38C89F0-8DB2-4EAB-84A9-D052D98A2152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38C89F0-8DB2-4EAB-84A9-D052D98A2152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38C89F0-8DB2-4EAB-84A9-D052D98A2152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38C89F0-8DB2-4EAB-84A9-D052D98A2152}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
