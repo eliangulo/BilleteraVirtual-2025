@@ -10,3 +10,15 @@ C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Servicio\obj\Debug\net9.0\
 C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Servicio\obj\Debug\net9.0\refint\BilleteraVirtual.Servicio.dll
 C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Servicio\obj\Debug\net9.0\BilleteraVirtual.Servicio.pdb
 C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Servicio\obj\Debug\net9.0\ref\BilleteraVirtual.Servicio.dll
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Servicio\bin\Debug\net9.0\BilleteraVirtual.Servicio.deps.json
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Servicio\bin\Debug\net9.0\BilleteraVirtual.Servicio.dll
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Servicio\bin\Debug\net9.0\BilleteraVirtual.Servicio.pdb
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Servicio\obj\Debug\net9.0\BilleteraVirtual.Servicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Servicio\obj\Debug\net9.0\BilleteraVirtual.Servicio.AssemblyInfoInputs.cache
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Servicio\obj\Debug\net9.0\BilleteraVirtual.Servicio.AssemblyInfo.cs
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Servicio\obj\Debug\net9.0\BilleteraVirtual.Servicio.csproj.CoreCompileInputs.cache
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Servicio\obj\Debug\net9.0\BilleteraVirtual.Servicio.sourcelink.json
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Servicio\obj\Debug\net9.0\BilleteraVirtual.Servicio.dll
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Servicio\obj\Debug\net9.0\refint\BilleteraVirtual.Servicio.dll
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Servicio\obj\Debug\net9.0\BilleteraVirtual.Servicio.pdb
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Servicio\obj\Debug\net9.0\ref\BilleteraVirtual.Servicio.dll

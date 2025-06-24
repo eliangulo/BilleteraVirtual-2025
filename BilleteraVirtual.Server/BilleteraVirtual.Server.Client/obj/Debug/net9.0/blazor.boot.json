@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BilleteraVirtual.Server.Client",
   "resources": {
-    "hash": "sha256-fplyyfmDGYpqejtWksv2S/HmugV4K17e3HLYWmbdG6w=",
+    "hash": "sha256-c56r7MvAnsCZPaGdxT6zcWDWCG9Hm34vaDIw3oiTOA4=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.n7we7nbch1.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.waskkzx0nn.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -195,27 +195,27 @@
       "netstandard.ifx8vojh9u.wasm": "netstandard.wasm",
       "System.Private.CoreLib.gcclii65ud.wasm": "System.Private.CoreLib.wasm",
       "dotnet.js": "dotnet.js",
-      "dotnet.native.uhsveqo9bs.js": "dotnet.native.js",
-      "dotnet.native.swgexbmoy7.wasm": "dotnet.native.wasm",
-      "dotnet.runtime.5nhp1wfg9b.js": "dotnet.runtime.js",
+      "dotnet.native.rtblh4npr3.js": "dotnet.native.js",
+      "dotnet.native.aqhezbunpl.wasm": "dotnet.native.wasm",
+      "dotnet.runtime.d1pzlaz2ez.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "BilleteraVirtual.Servicio.7vwloqk9y3.wasm": "BilleteraVirtual.Servicio.wasm",
-      "BilleteraVirtual.Shared.x0fchn3dus.wasm": "BilleteraVirtual.Shared.wasm",
-      "BilleteraVirtual.Servicio.y6tsvovd1c.pdb": "BilleteraVirtual.Servicio.pdb",
-      "BilleteraVirtual.Shared.q8a1qtc3mp.pdb": "BilleteraVirtual.Shared.pdb",
-      "BilleteraVirtual.Server.Client.9346d891vr.wasm": "BilleteraVirtual.Server.Client.wasm",
-      "BilleteraVirtual.Server.Client.jcpff7ocy8.pdb": "BilleteraVirtual.Server.Client.pdb"
+      "BilleteraVirtual.Servicio.4i84adfqvk.wasm": "BilleteraVirtual.Servicio.wasm",
+      "BilleteraVirtual.Shared.s19z21hplm.wasm": "BilleteraVirtual.Shared.wasm",
+      "BilleteraVirtual.Servicio.gl0x57l99m.pdb": "BilleteraVirtual.Servicio.pdb",
+      "BilleteraVirtual.Shared.lvyox8dk0c.pdb": "BilleteraVirtual.Shared.pdb",
+      "BilleteraVirtual.Server.Client.s136c3yrb5.wasm": "BilleteraVirtual.Server.Client.wasm",
+      "BilleteraVirtual.Server.Client.g4uqsxgj1k.pdb": "BilleteraVirtual.Server.Client.pdb"
     },
     "jsModuleNative": {
-      "dotnet.native.uhsveqo9bs.js": "sha256-/ifJokfQvXKw1hEziCkYR9SOJIKSdGG/UKw5gbLWrj0="
+      "dotnet.native.rtblh4npr3.js": "sha256-HyBzcYNpT2l19+f1bpjNOa1oFoLe3K4JIQ6GsFK5m6I="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.5nhp1wfg9b.js": "sha256-kTZbe5ESp04VMT22TnjRmFj88VbtEcohZfCm4og/IDw="
+      "dotnet.runtime.d1pzlaz2ez.js": "sha256-gbZjXNFbH7V8lcix+H0TUDJHLeFUA3n3IMu7fLh4D80="
     },
     "wasmNative": {
-      "dotnet.native.swgexbmoy7.wasm": "sha256-HHqsNtcX76Ik012KVAobmCLooIZ2znhTFCqfijzEdi0="
+      "dotnet.native.aqhezbunpl.wasm": "sha256-QgAJsJSEDZ9XA0g3PW3EffgXg+ymMp2uRhGnkVsOxQY="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -416,14 +416,14 @@
       "WindowsBase.pe1q66fox7.wasm": "sha256-X+jubl681x6U1UjhhKVz+cjOvMv1wDBWIyyFenqJnPc=",
       "mscorlib.ypkr78tz1c.wasm": "sha256-Wkc7KpMw/bTWNoLCRv9T8olIOmCpEiJSeUZsUQEnwrA=",
       "netstandard.ifx8vojh9u.wasm": "sha256-PqpRCbO73PFsE8ik5zmAuG1kKax3c7bGhjOOeuiUcyY=",
-      "BilleteraVirtual.Servicio.7vwloqk9y3.wasm": "sha256-o9km139R9o1dUJXfZ/o+a3VfVXCSBJS9GDnBKdD9m2g=",
-      "BilleteraVirtual.Shared.x0fchn3dus.wasm": "sha256-70taD1IKU6nA+AGkJncvi3XuNZUtVnkr7pNoNOyC1dU=",
-      "BilleteraVirtual.Server.Client.9346d891vr.wasm": "sha256-y4ho7e+P4qODMc4Bl2JkEuAp3Nclhv7T8BvZFp3O4zQ="
+      "BilleteraVirtual.Servicio.4i84adfqvk.wasm": "sha256-9O3OcVdgr6rT93G0E/FB6V7xMmtzl38jAKlBWLJbO5g=",
+      "BilleteraVirtual.Shared.s19z21hplm.wasm": "sha256-cLH37Ew7K/rPUhenS/nb2HXlMHOo3LZdIDjg3w/1p+4=",
+      "BilleteraVirtual.Server.Client.s136c3yrb5.wasm": "sha256-8KynKtGUc74RlKUMl5knq0YqUogtXpjWKu6G0JSewO8="
     },
     "pdb": {
-      "BilleteraVirtual.Servicio.y6tsvovd1c.pdb": "sha256-Nm6UZzdnVF35KYcptI0i2UwK1j1GCAQuc4nPZLDDtRo=",
-      "BilleteraVirtual.Shared.q8a1qtc3mp.pdb": "sha256-GljZQN4QKQ5eb0gBjzngfXiyF9Pg07LIfL+BbFjzBLo=",
-      "BilleteraVirtual.Server.Client.jcpff7ocy8.pdb": "sha256-7WYD8tRPQcmVO9dqiAa0EG3fkKHPz5k7xA822IQ39y4="
+      "BilleteraVirtual.Servicio.gl0x57l99m.pdb": "sha256-RLJPlQ/KVY8ewyDgXo2+/lYDIU/LR1+4Pvg0BPku3Ck=",
+      "BilleteraVirtual.Shared.lvyox8dk0c.pdb": "sha256-b4jaA/M+hizxe/c9UmM294S1El6C2L5lJvtQuUsUEHE=",
+      "BilleteraVirtual.Server.Client.g4uqsxgj1k.pdb": "sha256-AGXPVwZkVGrC349dpkYU2gtp4bfaDYnbhfwumo0jL1M="
     }
   },
   "cacheBootResources": true,

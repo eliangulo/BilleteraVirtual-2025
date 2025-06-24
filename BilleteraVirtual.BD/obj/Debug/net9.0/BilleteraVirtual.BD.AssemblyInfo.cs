@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BilleteraVirtual.BD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+005c179a86abd4f2c769359b9baf503614f565c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cb453373581511825e9699eb7aaa982fcde2dc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("BilleteraVirtual.BD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BilleteraVirtual.BD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
