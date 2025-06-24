@@ -18,8 +18,4 @@
     <ProjectReference Include="..\BilleteraVirtual.Shared\BilleteraVirtual.Shared.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Datos\Entidades\" />
-  </ItemGroup>
-
 </Project>
