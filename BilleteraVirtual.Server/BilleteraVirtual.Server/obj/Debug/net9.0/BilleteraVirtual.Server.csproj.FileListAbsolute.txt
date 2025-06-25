@@ -247,3 +247,13 @@ C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Server\BilleteraVirtual.Se
 C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Server\BilleteraVirtual.Server\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Server\BilleteraVirtual.Server\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Server\BilleteraVirtual.Server\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Lucas\Source\Repos\BilleteraVirtual-2025\BilleteraVirtual.Server\BilleteraVirtual.Server\obj\Debug\net9.0\BilleteraVirtual.Server.csproj.AssemblyReference.cache
+C:\Users\Lucas\Source\Repos\BilleteraVirtual-2025\BilleteraVirtual.Server\BilleteraVirtual.Server\obj\Debug\net9.0\BilleteraVirtual.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\Source\Repos\BilleteraVirtual-2025\BilleteraVirtual.Server\BilleteraVirtual.Server\obj\Debug\net9.0\BilleteraVirtual.Server.AssemblyInfoInputs.cache
+C:\Users\Lucas\Source\Repos\BilleteraVirtual-2025\BilleteraVirtual.Server\BilleteraVirtual.Server\obj\Debug\net9.0\BilleteraVirtual.Server.AssemblyInfo.cs
+C:\Users\Lucas\Source\Repos\BilleteraVirtual-2025\BilleteraVirtual.Server\BilleteraVirtual.Server\obj\Debug\net9.0\BilleteraVirtual.Server.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Source\Repos\BilleteraVirtual-2025\BilleteraVirtual.Server\BilleteraVirtual.Server\obj\Debug\net9.0\BilleteraVirtual.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lucas\Source\Repos\BilleteraVirtual-2025\BilleteraVirtual.Server\BilleteraVirtual.Server\obj\Debug\net9.0\BilleteraVirtual.Server.sourcelink.json
+C:\Users\Lucas\Source\Repos\BilleteraVirtual-2025\BilleteraVirtual.Server\BilleteraVirtual.Server\obj\Debug\net9.0\BilleteraVirtual.Server.dll
+C:\Users\Lucas\Source\Repos\BilleteraVirtual-2025\BilleteraVirtual.Server\BilleteraVirtual.Server\obj\Debug\net9.0\refint\BilleteraVirtual.Server.dll
+C:\Users\Lucas\Source\Repos\BilleteraVirtual-2025\BilleteraVirtual.Server\BilleteraVirtual.Server\obj\Debug\net9.0\BilleteraVirtual.Server.pdb
