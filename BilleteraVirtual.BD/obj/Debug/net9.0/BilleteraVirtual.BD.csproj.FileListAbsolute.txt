@@ -16,3 +16,21 @@ C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.BD\obj\Debug\net9.0\Billet
 C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.BD\obj\Debug\net9.0\ref\BilleteraVirtual.BD.dll
 C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.BD\bin\Debug\net9.0\BilleteraVirtual.BD.runtimeconfig.json
 C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.BD\obj\Debug\net9.0\BilleteraVirtual.BD.genruntimeconfig.cache
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\bin\Debug\net9.0\BilleteraVirtual.BD.deps.json
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\bin\Debug\net9.0\BilleteraVirtual.BD.runtimeconfig.json
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\bin\Debug\net9.0\BilleteraVirtual.BD.dll
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\bin\Debug\net9.0\BilleteraVirtual.BD.pdb
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\bin\Debug\net9.0\BilleteraVirtual.Shared.dll
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\bin\Debug\net9.0\BilleteraVirtual.Shared.pdb
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\obj\Debug\net9.0\BilleteraVirtual.BD.csproj.AssemblyReference.cache
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\obj\Debug\net9.0\BilleteraVirtual.BD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\obj\Debug\net9.0\BilleteraVirtual.BD.AssemblyInfoInputs.cache
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\obj\Debug\net9.0\BilleteraVirtual.BD.AssemblyInfo.cs
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\obj\Debug\net9.0\BilleteraVirtual.BD.csproj.CoreCompileInputs.cache
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\obj\Debug\net9.0\BilleteraVirtual.BD.sourcelink.json
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\obj\Debug\net9.0\Billeter.60D67EA8.Up2Date
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\obj\Debug\net9.0\BilleteraVirtual.BD.dll
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\obj\Debug\net9.0\refint\BilleteraVirtual.BD.dll
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\obj\Debug\net9.0\BilleteraVirtual.BD.pdb
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\obj\Debug\net9.0\BilleteraVirtual.BD.genruntimeconfig.cache
+C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.BD\obj\Debug\net9.0\ref\BilleteraVirtual.BD.dll
