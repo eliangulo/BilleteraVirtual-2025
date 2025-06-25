@@ -1,4 +1,4 @@
-C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Server\BilleteraVirtual.Server.Client\wwwroot\appsettings.Development.json
-C:\itsc\Practicas.1\BilleteraVirtual\BilleteraVirtual.Server\BilleteraVirtual.Server.Client\wwwroot\appsettings.json
+C:\Users\Lucas\Source\Repos\BilleteraVirtual-2025\BilleteraVirtual.Server\BilleteraVirtual.Server.Client\wwwroot\appsettings.Development.json
+C:\Users\Lucas\Source\Repos\BilleteraVirtual-2025\BilleteraVirtual.Server\BilleteraVirtual.Server.Client\wwwroot\appsettings.json
 wwwroot\appsettings.Development.json
 wwwroot\appsettings.json
