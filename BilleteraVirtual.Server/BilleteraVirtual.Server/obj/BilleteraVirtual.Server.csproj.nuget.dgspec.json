@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server\\BilleteraVirtual.Server.csproj": {}
+    "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server\\BilleteraVirtual.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj": {
+    "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj",
+        "projectUniqueName": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj",
         "projectName": "BilleteraVirtual.BD",
-        "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj",
-        "packagesPath": "C:\\Users\\Equipo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.BD\\obj\\",
+        "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.BD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Equipo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,15 +25,14 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj": {
-                "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj"
+              "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj": {
+                "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj"
               }
             }
           }
@@ -76,29 +75,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Repositorio\\BilleteraVirtual.Repositorio.csproj": {
+    "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Repositorio\\BilleteraVirtual.Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Repositorio\\BilleteraVirtual.Repositorio.csproj",
+        "projectUniqueName": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Repositorio\\BilleteraVirtual.Repositorio.csproj",
         "projectName": "BilleteraVirtual.Repositorio",
-        "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Repositorio\\BilleteraVirtual.Repositorio.csproj",
-        "packagesPath": "C:\\Users\\Equipo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Repositorio\\obj\\",
+        "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Repositorio\\BilleteraVirtual.Repositorio.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Equipo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -106,18 +111,17 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj": {
-                "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj"
+              "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj": {
+                "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj"
               },
-              "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj": {
-                "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj"
+              "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj": {
+                "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj"
               }
             }
           }
@@ -148,29 +152,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server.Client\\BilleteraVirtual.Server.Client.csproj": {
+    "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server.Client\\BilleteraVirtual.Server.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server.Client\\BilleteraVirtual.Server.Client.csproj",
+        "projectUniqueName": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server.Client\\BilleteraVirtual.Server.Client.csproj",
         "projectName": "BilleteraVirtual.Server.Client",
-        "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server.Client\\BilleteraVirtual.Server.Client.csproj",
-        "packagesPath": "C:\\Users\\Equipo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server.Client\\obj\\",
+        "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server.Client\\BilleteraVirtual.Server.Client.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Equipo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -178,18 +188,17 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Servicio\\BilleteraVirtual.Servicio.csproj": {
-                "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Servicio\\BilleteraVirtual.Servicio.csproj"
+              "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Servicio\\BilleteraVirtual.Servicio.csproj": {
+                "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Servicio\\BilleteraVirtual.Servicio.csproj"
               },
-              "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj": {
-                "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj"
+              "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj": {
+                "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj"
               }
             }
           }
@@ -217,13 +226,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.6, )",
+              "version": "[9.0.5, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.6, )",
+              "version": "[9.0.5, )",
               "autoReferenced": true
             }
           },
@@ -240,8 +249,12 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[9.0.6, 9.0.6]"
+              "version": "[9.0.5, 9.0.5]"
             }
           ],
           "frameworkReferences": {
@@ -249,7 +262,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -258,20 +271,20 @@
         }
       }
     },
-    "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server\\BilleteraVirtual.Server.csproj": {
+    "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server\\BilleteraVirtual.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server\\BilleteraVirtual.Server.csproj",
+        "projectUniqueName": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server\\BilleteraVirtual.Server.csproj",
         "projectName": "BilleteraVirtual.Server",
-        "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server\\BilleteraVirtual.Server.csproj",
-        "packagesPath": "C:\\Users\\Equipo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server\\obj\\",
+        "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server\\BilleteraVirtual.Server.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Equipo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -279,24 +292,23 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj": {
-                "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj"
+              "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj": {
+                "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.BD\\BilleteraVirtual.BD.csproj"
               },
-              "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Repositorio\\BilleteraVirtual.Repositorio.csproj": {
-                "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Repositorio\\BilleteraVirtual.Repositorio.csproj"
+              "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Repositorio\\BilleteraVirtual.Repositorio.csproj": {
+                "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Repositorio\\BilleteraVirtual.Repositorio.csproj"
               },
-              "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server.Client\\BilleteraVirtual.Server.Client.csproj": {
-                "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server.Client\\BilleteraVirtual.Server.Client.csproj"
+              "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server.Client\\BilleteraVirtual.Server.Client.csproj": {
+                "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Server\\BilleteraVirtual.Server.Client\\BilleteraVirtual.Server.Client.csproj"
               },
-              "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj": {
-                "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj"
+              "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj": {
+                "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj"
               }
             }
           }
@@ -343,6 +355,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -351,24 +369,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Servicio\\BilleteraVirtual.Servicio.csproj": {
+    "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Servicio\\BilleteraVirtual.Servicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Servicio\\BilleteraVirtual.Servicio.csproj",
+        "projectUniqueName": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Servicio\\BilleteraVirtual.Servicio.csproj",
         "projectName": "BilleteraVirtual.Servicio",
-        "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Servicio\\BilleteraVirtual.Servicio.csproj",
-        "packagesPath": "C:\\Users\\Equipo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Servicio\\obj\\",
+        "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Servicio\\BilleteraVirtual.Servicio.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Servicio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Equipo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -376,7 +394,6 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -411,29 +428,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj": {
+    "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj",
+        "projectUniqueName": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj",
         "projectName": "BilleteraVirtual.Shared",
-        "projectPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj",
-        "packagesPath": "C:\\Users\\Equipo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Equipo\\Desktop\\jesus\\Programas\\Billetera virtual\\BilleteraVirtual.Shared\\obj\\",
+        "projectPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Shared\\BilleteraVirtual.Shared.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\itsc\\Practicas.1\\BilleteraVirtual\\BilleteraVirtual.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Equipo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -441,7 +464,6 @@
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -476,12 +498,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

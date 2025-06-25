@@ -1,4 +1,0 @@
-C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Server\BilleteraVirtual.Server.Client\wwwroot\appsettings.Development.json
-C:\Users\Equipo\Desktop\jesus\Programas\Billetera virtual\BilleteraVirtual.Server\BilleteraVirtual.Server.Client\wwwroot\appsettings.json
-wwwroot\appsettings.Development.json
-wwwroot\appsettings.json
