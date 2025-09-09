@@ -16,13 +16,16 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
 //construccion de la aplicacion
+builder.Services.AddControllers();
+builder.Services.AddSwaggerGen();
 var app = builder.Build();
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseWebAssemblyDebugging();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 else
 {
@@ -42,4 +45,5 @@ app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
     .AddAdditionalAssemblies(typeof(BilleteraVirtual.Server.Client._Imports).Assembly);
 
+app.MapControllers();
 app.Run();
