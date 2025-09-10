@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.4" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BilleteraVirtual.BD\BilleteraVirtual.BD.csproj" />
     <ProjectReference Include="..\BilleteraVirtual.Shared\BilleteraVirtual.Shared.csproj" />
   </ItemGroup>
