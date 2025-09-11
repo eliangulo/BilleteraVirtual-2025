@@ -1,102 +1,86 @@
 ﻿using BilleteraVirtual.BD.Datos;
 using BilleteraVirtual.BD.Datos.Entidades;
+using BilleteraVirtual.Repositorio.Repositorios;
 using BilleteraVirtual.Shared.DTO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace BilleteraVirtual.Server.Components.Controller
+[ApiController]
+[Route("api/[controller]")]
+public class UsuariosController : ControllerBase
 {
-    namespace BilleteraVirtual.API.Controllers
+    private readonly IUsuariosRepositorio<Usuarios> repositorio;
+    private readonly AppDbContext context;
+
+    public UsuariosController(AppDbContext context,
+        IUsuariosRepositorio<Usuarios> repositorio)
     {
-        [ApiController]
-        [Route("api/UsuariosController")]
-        public class UsuariosController : ControllerBase
+        this.repositorio = repositorio;
+        this.context = context;
+    }
+
+    // POST: api/usuarios/registro
+    [HttpPost("registro")]
+    public async Task<ActionResult<int>> RegistrarUsuario(UsuariosRegistroDTO DTO)
+    {
+        try
         {
-            private readonly AppDbContext context;
-
-            public UsuariosController(AppDbContext context)
+            var billetera = new Billetera
             {
-                this.context = context;
-            }
+                // inicializá lo que tu entidad Billetera necesite
+                FechaCreacion = DateTime.Now,
+                Billera_Admin = DTO.EsAdmin
+            };
 
-           // api/Usuarios/register
-            [HttpPost("registro")]
-            public async Task<ActionResult>Registro(UsuariosRegistroDTO DTO)
+            await context.Billeteras.AddAsync(billetera);
+            await context.SaveChangesAsync(); // guarda y asigna Id a la billetera
+
+            Usuarios usuario = new Usuarios
             {
-                // Validar que no se repita CUIL o correo
-                var existe = await context.Usuarios.AnyAsync(u => u.CUIL == DTO.CUIL || u.Correo == DTO.Correo);
-                if (existe)
-                    return BadRequest("Existe un usuario con ese CUIL o correo.");
+                BilleteraId = billetera.Id, // Asignar un valor predeterminado o manejarlo según la lógica de negocio
+                CUIL = DTO.CUIL,
+                Nombre = DTO.Nombre,
+                Apellido = DTO.Apellido,
+                Domicilio = DTO.Domicilio,
+                FechaNacimiento = DTO.FechaNacimiento,
+                Correo = DTO.Correo,
+                Telefono = DTO.Telefono,
+                EsAdmin = DTO.EsAdmin
+            };
 
-                var usuario = new Usuarios
-                {
-                    CUIL = DTO.CUIL,
-                    Nombre = DTO.Nombre,
-                    Apellido = DTO.Apellido,
-                    Domicilio = DTO.Domicilio,
-                    FechaNacimiento = DTO.FechaNacimiento,
-                    Correo = DTO.Correo,
-                    Telefono = DTO.Telefono,
-                    EsAdmin = DTO.EsAdmin,
-                    BilleteraId = 0
-                };
+            await repositorio.Insert(usuario);
+            return Ok(usuario.Id); //usario
+        }
+        catch (Exception e)
+        {
+            return BadRequest($"Error al crear el registro: {e.InnerException?.Message ?? e.Message}");
+        }
+    }
 
-                context.Usuarios.Add(usuario);
-                await context.SaveChangesAsync();
+    // POST: api/usuarios/inicio-sesion
+    [HttpPost("inicio-sesion")]
+    public async Task<ActionResult> IniciarSesion(UsuariosLoginDTO DTO)
+    {
+        try
+        {
+            var usuario = await repositorio.GetAll()
+                .Where(u => u.Correo == DTO.Correo && u.CUIL == DTO.CUIL)
+                .FirstOrDefaultAsync();
 
-                return Ok("Usuario registrado.");
-            }
+            if (usuario == null)
+                return Unauthorized("CUIL o correo incorrecto.");
 
-            //api/Usuarios/login
-            [HttpPost("InicioDeSesion")]
-            public async Task<ActionResult> Login(UsuariosLoginDTO DTO)
+            return Ok(new
             {
-                var usuario = await context.Usuarios
-                    .FirstOrDefaultAsync(u => u.Correo == DTO.Correo && u.CUIL == DTO.CUIL);
-
-                if (usuario == null)
-                    return Unauthorized("Correo o CUIL incorrectos.");
-
-                return Ok("Inicio de sesion exitosa");
-              
-            }
-
-            //api/Usuarios/
-            [HttpPut("{id:int}")]
-            public async Task<ActionResult> PutUsuario(int id, UsuariosRegistroDTO DTO)
-            {
-                var usuario = await context.Usuarios.FindAsync(id);
-                if (usuario == null)
-                    return NotFound("Usuario no encontrado.");
-
-                usuario.CUIL = DTO.CUIL;
-                usuario.Nombre = DTO.Nombre;
-                usuario.Apellido = DTO.Apellido;
-                usuario.Domicilio = DTO.Domicilio;
-                usuario.FechaNacimiento = DTO.FechaNacimiento;
-                usuario.Correo = DTO.Correo;
-                usuario.Telefono = DTO.Telefono;
-                usuario.EsAdmin = DTO.EsAdmin;
-
-                context.Entry(usuario).State = EntityState.Modified;
-                await context.SaveChangesAsync();
-
-                return Ok("Usuario actualizado correctamente.");
-            }
-
-            //api/Usuarios/5
-            [HttpDelete("{id:int}")]
-            public async Task<ActionResult> DeleteUsuario(int id)
-            {
-                var usuario = await context.Usuarios.FindAsync(id);
-                if (usuario == null)
-                    return NotFound("Usuario no encontrado.");
-
-                context.Usuarios.Remove(usuario);
-                await context.SaveChangesAsync();
-
-                return Ok("Usuario eliminado.");
-            }
+                usuario.CUIL,
+                usuario.Nombre,
+                usuario.Apellido,
+                usuario.Correo
+            });
+        }
+        catch (Exception e)
+        {
+            return BadRequest($"Error al iniciar sesión: {e.Message}");
         }
     }
 }
