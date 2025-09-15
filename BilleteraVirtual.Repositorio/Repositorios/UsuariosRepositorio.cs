@@ -9,13 +9,11 @@ using System.Threading.Tasks;
 
 namespace BilleteraVirtual.Repositorio.Repositorios
 {
-    public class UsuariosRepositorio : Repositorio<Usuarios>,
-                                      IRepositorio<Usuarios>,
-                                      IUsuariosRepositorio
+    public class UsuariosRepositorio<E> : IUsuariosRepositorio<E> where E : class, IEntityBase
     {
         private readonly AppDbContext context;
 
-        public UsuariosRepositorio(AppDbContext context) : base(context)
+        public UsuariosRepositorio(AppDbContext context)
         {
             this.context = context;
         }
@@ -31,6 +29,25 @@ namespace BilleteraVirtual.Repositorio.Repositorios
             {
                 throw;
             }
+        }
+        public async Task<int> Insert(E entidad)
+        {
+            await context.Set<E>().AddAsync(entidad);
+            await context.SaveChangesAsync();
+
+            // Busca la propiedad Id si existe y la devuelve
+            var propiedadId = entidad?.GetType().GetProperty("Id");
+            if (propiedadId != null)
+            {
+                return (int)(propiedadId.GetValue(entidad) ?? 0);
+            }
+
+            return 0;
+        }
+
+        public IQueryable<E> GetAll()
+        {
+            return context.Set<E>().AsQueryable();
         }
     }
 }
