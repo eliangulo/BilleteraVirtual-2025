@@ -24,10 +24,10 @@ namespace BilleteraVirtual.Server.Components.Controller
         //para mi se usaria mas que el ID 
 
         [HttpGet]   //consulta todas las monedas 
-        public async Task<ActionResult<List<MonedaDTO>>> GetMoneda()
+        public async Task<ActionResult<List<MonedaIdDTO>>> GetMoneda()
         {
             var entidad = await rep.Select();
-            var dtos = entidad.Select(e => new MonedaDTO
+            var dtos = entidad.Select(e => new MonedaIdDTO
             {
                 Id = e.Id,
                 TipoMoneda = e.TipoMoneda,
@@ -39,14 +39,14 @@ namespace BilleteraVirtual.Server.Components.Controller
         }
 
         [HttpGet("{CodISO:int}")]   //consulta todas las monedas por el CodigoISO
-        public async Task<ActionResult<MonedaDTO>> GetByCodigoISO(int CodISO)
+        public async Task<ActionResult<MonedaIdDTO>> GetByCodigoISO(int CodISO)
         {
             var moneda = await repositorio.SelectByCodigoISO(CodISO.ToString());
             if (moneda == null)
             {
                 return NotFound($"Moneda con codigo ISO {CodISO} no encontrada.");
             }
-            var dto = new MonedaDTO
+            var dto = new MonedaIdDTO
             {
                 Id = moneda.Id,
                 TipoMoneda = moneda.TipoMoneda,
@@ -57,7 +57,7 @@ namespace BilleteraVirtual.Server.Components.Controller
         }
 
         [HttpPost] 
-        public async Task<ActionResult<MonedaDTO>> Create(MonedaDTO dto)
+        public async Task<ActionResult<MonedaIdDTO>> Create(MonedaDTO dto)
         {
             if (dto == null)
             {
@@ -77,9 +77,15 @@ namespace BilleteraVirtual.Server.Components.Controller
                 CodISO = dto.CodISO
             };
 
-            var id = await rep.Insert(entidad); 
-            dto.Id = id;
+            var id = await rep.Insert(entidad);
+            var dep = new MonedaIdDTO
+            {
+                Id = id,
+                TipoMoneda = dto.TipoMoneda,    
+                Habilitada = dto.Habilitada,
+                CodISO = dto.CodISO
 
+            };
             return CreatedAtAction(nameof(GetByCodigoISO), new {dto.CodISO}, dto);
         }
 

@@ -9,7 +9,6 @@ namespace BilleteraVirtual.Shared.DTO
 {
     public class DepositoDTO
     {
-        public int Id { get; set; }
         public int CuentaId { get; set; }
         public decimal Monto { get; set; }
         public bool HabilitadO { get; set; }
