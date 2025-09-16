@@ -65,7 +65,7 @@ namespace BilleteraVirtual.Server.Components.Controller
             return CreatedAtAction(nameof(GetDepositos), new {dto.Id}, dto);
         }
 
-        [HttpPut("{int:Id}")]
+        [HttpPut("{Id:int}")]
         public async Task<ActionResult> Update(int Id, DepositoDTO dto)
         {
             var entidad = await repositorio.SelectById(Id);
