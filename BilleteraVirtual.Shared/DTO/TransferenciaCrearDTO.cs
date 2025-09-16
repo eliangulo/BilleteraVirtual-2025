@@ -6,16 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BilleteraVirtual.BD.Datos.Entidades
-{//Jesus
-    public class Transferencia : EntityBase
+namespace BilleteraVirtual.Shared.DTO
+{
+    public class TransferenciaCrearDTO
     {
-
-        public int CuentaID { get; set; }
-        public Cuenta? Cuenta { get; set; } // Relación con la entidad Cuenta
-
-
-
         [Required(ErrorMessage = "Debe ingresar la fecha")]
         public required DateTime Fecha { get; set; }
 
@@ -33,5 +27,6 @@ namespace BilleteraVirtual.BD.Datos.Entidades
         [Required(ErrorMessage = "Debe ingresar el ID de la cuenta destino")]
         public required int IdCuentaDestino { get; set; }
         public string descripcion { get; set; } = "";
+
     }
 }

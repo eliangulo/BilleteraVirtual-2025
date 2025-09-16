@@ -2,7 +2,7 @@
 
 namespace BilleteraVirtual.Repositorio.Repositorios
 {
-    public interface ICompraRepositorio
+    public interface ICompraRepositorio : IRepositorio<Compra>
     {
         Task<Compra?> SelectByIdComprador(int idComprador);
         Task<Compra?> SelectByIdMonedaDestino(int idMonedaDestino);
