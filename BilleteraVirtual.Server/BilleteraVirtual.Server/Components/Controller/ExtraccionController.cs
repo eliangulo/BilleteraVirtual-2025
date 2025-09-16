@@ -50,7 +50,7 @@ namespace BilleteraVirtual.Server.Components.Controller
             }
             return Ok(lista);
         }
-        [HttpGet]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<Extraccion>> SelectById(int id) 
         {
             var entidad = await repositorio.SelectById(id);
@@ -60,7 +60,7 @@ namespace BilleteraVirtual.Server.Components.Controller
             }
             return Ok(entidad);
         }
-        [HttpGet]
+        [HttpGet("ListaExtraccion")]
         public async Task<ActionResult<List<Extraccion>>> ListaExtraccion() 
         {
             var lista = await repositorio.Select();
