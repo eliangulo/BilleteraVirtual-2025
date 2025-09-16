@@ -38,7 +38,7 @@ namespace BilleteraVirtual.Server.Components.Controller
             return Ok(dtos);
         }
 
-        [HttpGet("{CodISO}")]   //consulta todas las monedas por el CodigoISO
+        [HttpGet("{CodISO:int}")]   //consulta todas las monedas por el CodigoISO
         public async Task<ActionResult<MonedaDTO>> GetByCodigoISO(int CodISO)
         {
             var moneda = await repositorio.SelectByCodigoISO(CodISO.ToString());
@@ -83,7 +83,7 @@ namespace BilleteraVirtual.Server.Components.Controller
             return CreatedAtAction(nameof(GetByCodigoISO), new {dto.CodISO}, dto);
         }
 
-        [HttpPut("{CodISO}")]
+        [HttpPut("{CodISO:int}")]
         public async Task<ActionResult> Update(int CodISO, MonedaDTO dto) 
         {
             var entidad = await repositorio.SelectByCodigoISO(CodISO.ToString());
@@ -105,7 +105,7 @@ namespace BilleteraVirtual.Server.Components.Controller
             return Ok("Moneda actualizada correctamente.");
         }
 
-        [HttpDelete("{CodISO}")]   
+        [HttpDelete("{CodISO:int}")]   
         public async Task<ActionResult> Delete(int CodISO)
         {
             var entidad = await repositorio.SelectByCodigoISO(CodISO.ToString());   
