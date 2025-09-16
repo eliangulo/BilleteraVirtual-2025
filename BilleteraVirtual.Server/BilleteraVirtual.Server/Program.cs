@@ -22,6 +22,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 //builder.Services.AddScoped<IRepositorio<Extraccion>, Repositorio<Extraccion>>();
 builder.Services.AddScoped<IMonedaRepositorio, MonedaRepositorio>();
+builder.Services.AddScoped<IRepositorio<Moneda>, Repositorio<Moneda>>();
 //builder.Services.AddScoped<IUsuariosRepositorio, UsuariosRepositorio>();
 builder.Services.AddScoped<IUsuariosRepositorio<Usuarios>, UsuariosRepositorio<Usuarios>>();
 builder.Services.AddScoped<ICompraRepositorio, CompraRepositorio>();
