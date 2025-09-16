@@ -20,10 +20,10 @@ namespace BilleteraVirtual.Server.Components.Controller
         }
 
         [HttpGet] 
-        public async Task<ActionResult<List<DepositoDTO>>> GetDepositos()
+        public async Task<ActionResult<List<DepositoIdDTO>>> GetDepositos()
         {
             var entidad = await repositorio.Select();
-            var dtos = entidad.Select(e => new DepositoDTO
+            var dtos = entidad.Select(e => new DepositoIdDTO
             {
                 Id = e.Id,
                 CuentaId = e.CuentaId,
@@ -37,17 +37,11 @@ namespace BilleteraVirtual.Server.Components.Controller
         }
 
         [HttpPost]
-        public async Task<ActionResult<DepositoDTO>> Create(DepositoDTO dto)
+        public async Task<ActionResult<DepositoIdDTO>> Create(DepositoDTO dto)
         {
             if (dto == null)
             {
                 return BadRequest($"Datos no validos");
-            }
-
-            var existe = await repositorio.SelectById(dto.Id);
-            if (existe != null)
-            {
-                return BadRequest($"Ya existe un deposito con el id {dto.Id}");
             }
 
             var entidad = new Deposito
@@ -55,14 +49,20 @@ namespace BilleteraVirtual.Server.Components.Controller
                 CuentaId = dto.CuentaId,
                 Monto = dto.Monto,
                 HabilitadO = dto.HabilitadO,
-                Fecha = dto.Fecha   
-
-            };
+                Fecha = dto.Fecha
+            };  
 
             var id = await repositorio.Insert(entidad);
-            dto.Id = id;
+            var dep = new DepositoIdDTO
+            {
+                Id = id,
+                CuentaId = dto.CuentaId,
+                Monto = dto.Monto,
+                HabilitadO = dto.HabilitadO,
+                Fecha = dto.Fecha
+            };
 
-            return CreatedAtAction(nameof(GetDepositos), new {dto.Id}, dto);
+            return CreatedAtAction(nameof(GetDepositos), new {dep.Id}, dep);
         }
 
         [HttpPut("{Id:int}")]
